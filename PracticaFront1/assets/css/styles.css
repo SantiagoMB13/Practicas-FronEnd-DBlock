@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body nav .content, body nav .login{
+    display: inline-block;
+}
+
+body nav .content p, body nav .content span{
+    display: inline-block;
+}
+
+nav{
+    position: relative;
+    background-color: #252b42;
+}
+
+nav .login{
+    position: absolute;
+    right: 0;
+}
+
+.brand{
+    margin: 30px 50px 30px 200px;
+    font-size: 30px;
+    color: white;
+}
+
+body nav .content span p{
+    color: white;
+    font-size: 14px;
+}
+
+.login{
+    margin: 40px 200px;
+    color: white;
+}
+
+.navlog{
+    margin-right: 50px;
+}
+
+.join{
+    background-color: #23a6f0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.principal{
+    border: 5px solid #252b42;
+    text-align: center;
+    background-color: #252b42;
+}
+
+.welc{
+    color: #23a6f0;
+    font-size: 14px;
+    margin: 100px 0 10px 0;
+}
+
+h1{
+    color: white;
+    font-size: 62px;
+    margin: 20px;
+    font-family: 'halter';
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+}
+
+body main .principal .quote, body main .principal .more{
+    display: inline-block;
+}
+
+.more{
+    border: 2px solid #23a6f0;
+    padding: 10px;
+    color: #23a6f0;
+    border-radius: 3px;
+    margin-bottom: 70px;
+}
+
+.quote{
+    margin-top: 20px;
+    background-color: #23a6f0;
+    color: white;
+    padding: 12px;
+    border-radius: 3px;
+    margin-right: 10px;
+    
+}
+
+.cuadros{
+    text-align: center;
+    background-color: #252b42;
+    padding-bottom: 50px;
+}
+
+body main .cuadros .cuadron, body main .cuadros .cuadrod{
+    display: inline-block;
+}
+
+.cuadron{
+    background-color: white;
+    padding: 30px;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.icont2{
+    background-color: #b9eaa8;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.icont1{
+    background-color: #ffdcd1;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+    color: #a9a9a9;
+    padding-left: 3px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.linean{
+    border: 2px solid #f29898;
+    border-radius: 3px;
+    width: 40%;
+}
+
+.cuadrod{
+    background-color: #23a6f0;
+    color: white;
+    padding: 30px;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.cuadroa{
+    color: white;
+}
+
+.icont3{
+    background-color: white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.linead{
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 40%;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icons/icomoon.eot?lmhbyk');
+    src:  url('../fonts/icons/icomoon.eot?lmhbyk#iefix') format('embedded-opentype'),
+      url('../fonts/icons/icomoon.ttf?lmhbyk') format('truetype'),
+      url('../fonts/icons/icomoon.woff?lmhbyk') format('woff'),
+      url('../fonts/icons/icomoon.svg?lmhbyk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  .join::after{
+    font-family: 'icomoon';
+    content: '\ea3c';
+    padding-left: 10px;
+  }
+
+  .icon1::before{
+    font-family: 'icomoon';
+    content: '\e9f7';
+    color: #ea5453;
+    font-size: 30px;
+  }
+
+  .icon2::before{
+    font-family: 'icomoon';
+    content: '\e900';
+    color: #31c172;
+    font-size: 30px;
+  }
+
+  .icon3::before{
+    font-family: 'icomoon';
+    content: '\e93f';
+    color: #23a6f0;
+    font-size: 30px;
+  }
+
+  @font-face {
+    font-family: 'halter';
+    src: '../fonts/halter.ttf';
+  }
+
+
+
